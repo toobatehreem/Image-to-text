@@ -5,5 +5,4 @@ pytesseract.pytesseract.tesseract_cmd = r"" #install pytesseract module and incl
 
 img = Image.open("") #enter the image filename like "testimage.jpg"
 text = pytesseract.image_to_string(img)
-text1 = pytesseract.image_to_string(img)
-print(text1)
+print(text)
